@@ -1,0 +1,190 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat", sans-serif;
+}
+
+p{
+    color: #8F8F8F;
+}
+
+/* Headings*/
+
+.big-heading{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+/* Download Bottons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title{
+    background-color: #FF4C68;
+    color: #FFF;
+    text-align: left;
+
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    
+}
+
+/* Feature Section */
+
+#features{
+    background-color: #FFF;
+    position: relative;
+}
+
+.features-title{
+    font-weight: 700;
+    font-size: 1.5rem;   
+}
+
+.features-icon{
+    color: #EF8172;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.features-text{
+    color: #8F8F8F;
+    padding: 0 4.5%;
+}
+
+.features-icon:hover{
+    color: #FF4C68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #EF8172;
+    color: #FFF;
+}
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;  
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #EF8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */ 
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.price-text{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call of Action Section */
+
+#cta{
+    background-color: #FF4C68;
+    color: #FFF;
+}
+
+/* Footer Section */
+
+.footer-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 992px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    
+}
+
