@@ -38,4 +38,4 @@ This project is licensed under the MIT License.
 
 ---
 
-Thank you for checking out TinDog! Feel free to fork the repo or contribute if you’d like to improve it.
+Thank you for checking out TinDog! Feel free to fork the repo or contribute if you’d like to improve it. 
